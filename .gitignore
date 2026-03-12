@@ -1,5 +1,7 @@
-#Don't want gifs to clog up repo
+#Don't want gifs, pngs, csvs to clog up repo
 *.gif
+*.csv
+*.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
