@@ -1,16 +1,22 @@
 # 2D Discrete Traffic Model
 Created in Python within a Jupyter notebook, the aim of this 2D discrete traffic model is to run analyses on four pathfinding algorithms.
-<br>
-This simulation features cars attempting to move to their goals while avoiding collisions with other cars. The variable max_wait determines how long a car waits before it replans its route, while the variable max_stuck determines how long a car has been stuck in one place before that car is timed out. 
-<br>
+
+
+This simulation features cars attempting to move to their goals while avoiding collisions with other cars. 
+
+The variable max_wait determines how long a car waits before it replans its route, while the variable max_stuck determines how long a car has been stuck in one place before that car is timed out. 
+
+
 The functions for running the simulation and performing single algorithm or multi algorithm analysis are highly customisable, with parameters for everything.
-<br>
+
+
 To add realism, obstacles can be chosen which block the movement of cars, leading to unpredictable pathfinding.
-<br>
+
+
 In addition, when performing analyses, grid configurations can be seeded to allow for reproducibility of results.
-<br>
-<br>
-Example of the BFS algorithm running with 50 cars.
+
+
+Example of the BFS algorithm running with 50 cars:
 <br>
 ![BFS_Sim](/images/BFS_traffic_sim.gif)
 
